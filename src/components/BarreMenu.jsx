@@ -1,7 +1,7 @@
 import React , { Component } from 'react'
 import  { Navbar, Nav  } from 'react-bootstrap'
 import AuthContext from '../contexts/AuthContext'
-import speedTest from '../services/speedTest'
+
 
 
 export default class BarreMenu extends Component {
@@ -14,7 +14,7 @@ export default class BarreMenu extends Component {
       return(
             <Navbar bg="dark" variant="dark">
 
-                  <Navbar.Brand >Odyssée</Navbar.Brand>
+                  <Navbar.Brand >Odyssées</Navbar.Brand>
                   <Nav className="mr-auto">
                         <Nav.Link href="/">Reset</Nav.Link>
                   </Nav>
