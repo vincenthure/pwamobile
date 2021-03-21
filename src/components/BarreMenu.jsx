@@ -14,7 +14,7 @@ export default class BarreMenu extends Component {
       return(
             <Navbar bg="dark" variant="dark">
 
-                  <Navbar.Brand >Odysséeaa</Navbar.Brand>
+                  <Navbar.Brand >Odyssée</Navbar.Brand>
                   <Nav className="mr-auto">
                         <Nav.Link href="/">Reset</Nav.Link>
                   </Nav>
